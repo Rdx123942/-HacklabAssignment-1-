@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: aliceblue;
+}
+button {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  font-size: 24px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: 0 0 10px #333;
+}
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#red.off, #green.off, #yellow.off {
+  background-color: black;
+}
